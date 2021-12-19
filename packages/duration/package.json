@@ -1,0 +1,13 @@
+{
+  "name": "@time-utils/duration",
+  "version": "1.0.0",
+  "description": "Class for handling durations",
+  "main": "index.js",
+  "type": "module",
+  "author": "Matthew Simpson <matthew@matthewsimpson.net>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jasmine",
+    "lint": "eslint ./**.{js,mjs}"
+  }
+}

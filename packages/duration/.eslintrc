@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "standard",
+    "plugin:compat/recommended"
+  ],
+  "plugins": [
+    "compat"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "no-console": "error",
+    "semi": ["error", "always"]
+  }
+}

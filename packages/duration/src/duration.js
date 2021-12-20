@@ -70,4 +70,4 @@ export default class Duration {
   static between(start, end) {
     return new Duration(end - start);
   }
-};
+}

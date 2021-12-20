@@ -21,12 +21,12 @@ The Class accepts a single argument, the number of milliseconds of the duration 
 
 ### Instance Methods
 
-`duration.minus` accepts a Duration instance and returns a new Duration of the difference 
+`duration.minus` accepts a Duration instance and returns a new Duration of the difference
 between the two.
 
 ### Instance properties
 
-Durations contain multiple properties to get the value in different units of time. Available 
+Durations contain multiple properties to get the value in different units of time. Available
 properties are:
 
 * `milliseconds`
@@ -35,12 +35,12 @@ properties are:
 * `hours`
 * `days`
 
-Parts of the duration can get accessed using a singular form:
+Parts of the duration can by accessed using a singular form:
 
 * `millisecond`
 * `second`
 * `minute`
 * `hour`
 
-As an example, 1300 milliseconds would return `300` for the millisecond part, and `1` for the 
+As an example, 1300 milliseconds would return `300` for the millisecond part, and `1` for the
 second part

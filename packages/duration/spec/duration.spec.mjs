@@ -31,7 +31,7 @@ describe('Duration', () => {
     });
   });
 
-  describe('#millisecond', () => {
+  describe('#milliseconds', () => {
     testProperty('milliseconds', 400, 400);
     testProperty('milliseconds', 1_500, 1_500);
     testProperty('milliseconds', -4_500, -4_500);
@@ -62,33 +62,6 @@ describe('Duration', () => {
     testProperty('days', 86_400_000, 1);
     testProperty('days', 86_400_001, 1);
     testProperty('days', -90_400_001, -1);
-  });
-
-  describe('#millisecond', () => {
-    testProperty('millisecond', 400, 400);
-    testProperty('millisecond', 1_500, 500);
-    testProperty('millisecond', -4_500, -500);
-  });
-
-  describe('#second', () => {
-    testProperty('second', 5_000, 5);
-    testProperty('second', 65_000, 5);
-    testProperty('second', 4_500, 4);
-    testProperty('second', -4_500, -4);
-  });
-
-  describe('#minute', () => {
-    testProperty('minute', 60_000, 1);
-    testProperty('minute', 3_660_000, 1);
-    testProperty('minute', 70_000, 1);
-    testProperty('minute', -70_000, -1);
-  });
-
-  describe('#hour', () => {
-    testProperty('hour', 3_600_000, 1);
-    testProperty('hour', 90_000_000, 1);
-    testProperty('hour', 3_660_000, 1);
-    testProperty('hour', -90_000_000, -1);
   });
 
   describe('.between', () => {

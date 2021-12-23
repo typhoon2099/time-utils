@@ -23,6 +23,12 @@ importers:
   packages/duration:
     specifiers: {}
 
+  packages/duration-formatter:
+    specifiers:
+      '@time-utils/duration': workspace:^1.0.0
+    dependencies:
+      '@time-utils/duration': link:../duration
+
 packages:
 
   /@babel/code-frame/7.12.11:

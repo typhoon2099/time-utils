@@ -1,9 +1,4 @@
 export default class Duration {
-  static #MILLISECONDS_PER_SECOND = 1_000;
-  static #SECONDS_PER_MINUTE = 60;
-  static #MINUTES_PER_HOUR = 60;
-  static #HOURS_PER_DAY = 24;
-
   static #SECOND = 1_000;
   static #MINUTE = 60_000;
   static #HOUR = 3_600_000;
@@ -36,22 +31,6 @@ export default class Duration {
     return Math.trunc(this.milliseconds / Duration.#DAY);
   }
 
-  get second() {
-    return this.seconds % Duration.#SECONDS_PER_MINUTE;
-  }
-
-  get millisecond() {
-    return this.milliseconds % Duration.#MILLISECONDS_PER_SECOND;
-  }
-
-  get minute() {
-    return this.minutes % Duration.#MINUTES_PER_HOUR;
-  }
-
-  get hour() {
-    return this.hours % Duration.#HOURS_PER_DAY;
-  }
-
   /**
    * @param {Duration} duration
    */
@@ -70,4 +49,4 @@ export default class Duration {
   static between(start, end) {
     return new Duration(end - start);
   }
-};
+}

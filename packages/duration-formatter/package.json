@@ -13,6 +13,6 @@
     "lint": "eslint ./**.{js,mjs}"
   },
   "dependencies": {
-    "@time-utils/duration": "workspace:^1.0.0"
+    "@time-utils/duration": "workspace:^1.1.0"
   }
 }

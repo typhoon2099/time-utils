@@ -22,15 +22,16 @@ export default class DurationFormatter {
     return hours % DurationFormatter.#HOURS_PER_DAY;
   }
 
-  clock() {
+  static clock(duration) {
     let negative = false;
-    const { hours, minutes, seconds } = this.duration;
+    const { days, hours, minutes, seconds } = duration;
 
-    if (this.duration.milliseconds < 0) {
+    if (duration.milliseconds < 0) {
       negative = true;
     }
 
     let parts = [
+      Math.abs(days),
       DurationFormatter.#hour(Math.abs(hours)),
       DurationFormatter.#minute(Math.abs(minutes)),
       DurationFormatter.#second(Math.abs(seconds)),

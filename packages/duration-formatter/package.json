@@ -1,6 +1,6 @@
 {
   "name": "@time-utils/duration-formatter",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "String formatter for Durations",
   "homepage": "htps://github.com/typhoon2099/time-utils",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "test": "jasmine",
     "lint": "eslint ./**.{js,mjs}"
   },
-  "dependencies": {
+  "peerDependencies": {
     "@time-utils/duration": "workspace:^1.1.0"
   }
 }

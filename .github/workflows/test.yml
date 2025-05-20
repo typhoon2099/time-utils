@@ -70,6 +70,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Lint
+        run: pnpm run --filter ./packages/duration lint
+
       - name: Run Tests
         run: pnpm run --filter ./packages/duration test
 
@@ -105,6 +108,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: Lint
+        run: pnpm run --filter ./packages/duration lint
 
       - name: Run Tests
         run: pnpm run --filter ./packages/duration-formatter test

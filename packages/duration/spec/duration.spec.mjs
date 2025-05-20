@@ -9,25 +9,33 @@ describe('Duration', () => {
 
   describe('new', () => {
     it('allows positive durations', () => {
-      expect(() => { new Duration(1_000); }).not.toThrowError();
+      expect(() => {
+        new Duration(1_000);
+      }).not.toThrowError();
     });
 
     it('allows negative durations', () => {
-      expect(() => { new Duration(-1_000); }).not.toThrowError();
+      expect(() => {
+        new Duration(-1_000);
+      }).not.toThrowError();
     });
 
     it('allows zero millisecond durations', () => {
-      expect(() => { new Duration(0); }).not.toThrowError();
+      expect(() => {
+        new Duration(0);
+      }).not.toThrowError();
     });
 
     it('does not allow non-integer numbers', () => {
-      expect(() => { new Duration(1.1); })
-        .toThrowError('milliseconds must be an Integer');
+      expect(() => {
+        new Duration(1.1);
+      }).toThrowError('milliseconds must be an Integer');
     });
 
     it('does not allow strings', () => {
-      expect(() => { new Duration('number'); })
-        .toThrowError('milliseconds must be an Integer');
+      expect(() => {
+        new Duration('number');
+      }).toThrowError('milliseconds must be an Integer');
     });
   });
 

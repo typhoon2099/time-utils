@@ -7,7 +7,14 @@
   "type": "module",
   "author": "Matthew Simpson <matthew@matthewsimpson.net>",
   "license": "MIT",
-  "keywords": ["duration", "time", "temporal", "utility", "formatter", "template"],
+  "keywords": [
+    "duration",
+    "time",
+    "temporal",
+    "utility",
+    "formatter",
+    "template"
+  ],
   "scripts": {
     "test": "jasmine",
     "lint": "eslint ./**.{js,mjs}"

@@ -30,7 +30,7 @@ export default class DurationFormatter {
       negative = true;
     }
 
-    let parts = [
+    const parts = [
       Math.abs(days),
       DurationFormatter.#hour(Math.abs(hours)),
       DurationFormatter.#minute(Math.abs(minutes)),
@@ -41,6 +41,6 @@ export default class DurationFormatter {
       parts.shift();
     }
 
-    return `${negative ? '-' : ''}${parts.map(part => part.toString().padStart(2, '0')).join(':')}`;
+    return `${negative ? '-' : ''}${parts.map((part) => part.toString().padStart(2, '0')).join(':')}`;
   }
 }

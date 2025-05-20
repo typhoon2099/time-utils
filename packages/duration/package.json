@@ -10,6 +10,6 @@
   "keywords": ["duration", "time", "temporal", "utility"],
   "scripts": {
     "test": "jasmine",
-    "lint": "eslint ./**.{js,mjs}"
+    "lint": "biome check"
   }
 }

@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "test": "jasmine",
-    "lint": "eslint ./**.{js,mjs}"
+    "lint": "biome check"
   },
   "peerDependencies": {
     "@time-utils/duration": "workspace:^1.1.0"

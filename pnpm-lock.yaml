@@ -12,8 +12,8 @@ importers:
         specifier: ^1.9.4
         version: 1.9.4
       jasmine:
-        specifier: ^5.7.1
-        version: 5.7.1
+        specifier: ^5.8.0
+        version: 5.8.0
 
   packages/duration: {}
 
@@ -146,11 +146,11 @@ packages:
   jackspeak@3.4.3:
     resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
 
-  jasmine-core@5.7.1:
-    resolution: {integrity: sha512-QnurrtpKsPoixxG2R3d1xP0St/2kcX5oTZyDyQJMY+Vzi/HUlu1kGm+2V8Tz+9lV991leB1l0xcsyz40s9xOOw==}
+  jasmine-core@5.8.0:
+    resolution: {integrity: sha512-Q9dqmpUAfptwyueW3+HqBOkSuYd9I/clZSSfN97wXE/Nr2ROFNCwIBEC1F6kb3QXS9Fcz0LjFYSDQT+BiwjuhA==}
 
-  jasmine@5.7.1:
-    resolution: {integrity: sha512-E/4fkRNy/9ALz6z3Z3/tYXFAohoznVy7In9FWutG2fqBSkILJHFzbgZtHJUw5UrL3jgUQ4sdGYOVZ5KpSXYjGw==}
+  jasmine@5.8.0:
+    resolution: {integrity: sha512-1V6HGa0+TMoMY20+/vp++RqLlL1noupV8awzV6CiPuICC0g7iKZ9z87zV2KyelRyoig0G1lHn7ueElXVMGVagg==}
     hasBin: true
 
   lru-cache@10.4.3:
@@ -323,12 +323,12 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jasmine-core@5.7.1: {}
+  jasmine-core@5.8.0: {}
 
-  jasmine@5.7.1:
+  jasmine@5.8.0:
     dependencies:
       glob: 10.4.5
-      jasmine-core: 5.7.1
+      jasmine-core: 5.8.0
 
   lru-cache@10.4.3: {}
 

@@ -7,7 +7,12 @@
   "type": "module",
   "author": "Matthew Simpson <matthew@matthewsimpson.net>",
   "license": "MIT",
-  "keywords": ["duration", "time", "temporal", "utility"],
+  "keywords": [
+    "duration",
+    "time",
+    "temporal",
+    "utility"
+  ],
   "scripts": {
     "test": "jasmine",
     "lint": "biome check"

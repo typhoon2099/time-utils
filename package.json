@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "@biomejs/biome": "^2.5.12",
+    "@biomejs/biome": "^2.5.14",
     "jasmine": "^7.0.0"
   }
 }

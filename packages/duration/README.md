@@ -29,18 +29,18 @@ between the two.
 Durations contain multiple properties to get the value in different units of time. Available
 properties are:
 
-* `milliseconds`
-* `seconds`
-* `minutes`
-* `hours`
-* `days`
+- `milliseconds`
+- `seconds`
+- `minutes`
+- `hours`
+- `days`
 
 Parts of the duration can by accessed using a singular form:
 
-* `millisecond`
-* `second`
-* `minute`
-* `hour`
+- `millisecond`
+- `second`
+- `minute`
+- `hour`
 
 As an example, 1300 milliseconds would return `300` for the millisecond part, and `1` for the
 second part
